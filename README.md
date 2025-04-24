@@ -23,6 +23,8 @@
 
 O objetivo da nossa empresa é eliminar a insegurança dos indivíduos, promovendo uma elevação significativa da autoestima. O diferencial da nossa empresa reside no fato de que não nos limitamos a um único procedimento específico, mas, sim, oferecemos uma abordagem ampla, com a inclusão de Procedimentos Estéticos Minimamente Invasivos. Além disso, prezamos pela segurança de nossos clientes, permitindo-lhes a liberdade de escolher o médico de sua preferência, assegurando assim a confiança no processo e nos resultados.
 
+---
+
 **O Problema:**
 
 O projeto busca tornar mais acessíveis e seguras as informações sobre procedimentos estéticos e cirurgias plásticas, oferecendo uma plataforma com dados confiáveis, agendamento online, avaliações de profissionais e transparência em custos e resultados.
