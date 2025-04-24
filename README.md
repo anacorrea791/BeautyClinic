@@ -9,7 +9,7 @@
 - [@Anacorrea791](https://github.com/anacorrea791)
 - [@KaiqueSpilari](https://github.com/KaiqueSpilari)
 - [@larissa016](https://github.com/larissa016)
-- [@Anacorrea791]()
+- [manuela582279](https://github.com/manuela582279)
 
 ---
 
