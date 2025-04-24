@@ -63,3 +63,10 @@ Agendamento online com profissionais verificados.
 informações claras sobre os procedimentos, custos e avaliações.
 
 ---
+
+**Protótipo:**
+<center>
+<a>
+<img src="img/imagem01.jpg">
+</a>
+</center>
