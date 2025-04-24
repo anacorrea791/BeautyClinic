@@ -18,6 +18,7 @@
 - [@Prof-Castello](https://www.github.com/Prof-Castello)
 - [@ProfCristianoDePaula](https://www.github.com/ProfCristianoDePaula)
 
+---
 
 **O Problema:**
 
@@ -43,6 +44,17 @@ Os dados coletados (de forma anônima e segura) ajudam a mapear tendências, mel
 
 **Sobre a BeautyClinic:**
 
-💆 Recomendações de beleza: Sugestões personalizadas de procedimentos e cuidados estéticos.
-💄 Consulta fácil: Agendamento online com profissionais verificados.
-🔍 Transparência: Info clara sobre procedimentos, custos e avaliações.
+**💆 Recomendações de beleza:** 
+Sugestões personalizadas de procedimentos e cuidados estéticos.
+
+---
+
+**💄 Consulta fácil:**
+Agendamento online com profissionais verificados.
+
+---
+
+**🔍 Transparência:**
+informações claras sobre os procedimentos, custos e avaliações.
+
+---
