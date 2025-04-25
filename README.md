@@ -37,7 +37,7 @@ Uma plataforma digital que reúne informações confiáveis sobre procedimentos 
 
 ---
 
-💡 Tecnologia Inteligente na Estética:
+**📱 Tecnologia Inteligente na Estética:**
 
 A plataforma utiliza inteligência artificial para personalizar recomendações de procedimentos com base no perfil do usuário.
 
@@ -49,7 +49,7 @@ Os dados coletados (de forma anônima e segura) ajudam a mapear tendências, mel
 
 **Sobre a BeautyClinic:**
 
-**💆 Recomendações de beleza:** 
+**💎 Recomendações de beleza:** 
 Sugestões personalizadas de procedimentos e cuidados estéticos.
 
 
@@ -59,14 +59,53 @@ Agendamento online com profissionais verificados.
 
 
 
-**🔍 Transparência:**
+**🌸 Transparência:**
 informações claras sobre os procedimentos, custos e avaliações.
 
 ---
 
-**Protótipo:**
+**Protótipo Institucional:**
 <center>
 <a>
 <img src="img/imagem01.jpg">
 </a>
 </center>
+
+---
+
+**Protótipo site principal:**
+<center>
+<a>
+<img src="img/imagem02.jpg">
+</a>
+</center>
+
+**Protótipo site principal parte 02:**
+<center>
+<a>
+<img src="img/imagem03.jpg">
+</a>
+</center>
+
+**Protótipo site principal parte 03:**
+<center>
+<a>
+<img src="img/imagem04.jpg">
+</a>
+</center>
+
+---
+
+**🌼 Desenvolvimento promissor**
+
+**Beleza com Consciência:** Unimos excelência em procedimentos estéticos a práticas sustentáveis, reforçando nosso compromisso com a saúde e o meio ambiente.
+
+
+**Atitude Sustentável:** Promovemos a conscientização sobre o impacto ambiental e adotamos medidas que reduzem o desperdício e incentivam o uso consciente de recursos.
+
+
+**Inovação e Crescimento:** Apostamos em iniciativas que conectam tecnologia, responsabilidade e novas possibilidades de expansão para a clínica.
+
+
+**Responsabilidade Estética:** Acreditamos em uma beleza responsável, que valoriza o bem-estar do paciente e o cuidado com o planeta.
+
