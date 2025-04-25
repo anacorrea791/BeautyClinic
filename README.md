@@ -80,12 +80,16 @@ informações claras sobre os procedimentos, custos e avaliações.
 </a>
 </center>
 
+---
+
 **Protótipo site principal parte 02:**
 <center>
 <a>
 <img src="img/imagem03.jpg">
 </a>
 </center>
+
+---
 
 **Protótipo site principal parte 03:**
 <center>
