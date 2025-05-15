@@ -67,7 +67,7 @@ informações claras sobre os procedimentos, custos e avaliações.
 **Protótipo Institucional:**
 <center>
 <a>
-<img src="img/imagem01.jpg">
+<img src="img/imagem01.jpg"> 
 </a>
 </center>
 
@@ -76,7 +76,7 @@ informações claras sobre os procedimentos, custos e avaliações.
 **Protótipo site principal:**
 <center>
 <a>
-<img src="img/imagem02.jpg">
+<img src="img/imagem02.jpg"> 
 </a>
 </center>
 
@@ -94,7 +94,7 @@ informações claras sobre os procedimentos, custos e avaliações.
 **Protótipo site principal parte 03:**
 <center>
 <a>
-<img src="img/imagem04.jpg">
+<img src="img/imagem04.png">
 </a>
 </center>
 
@@ -112,4 +112,3 @@ informações claras sobre os procedimentos, custos e avaliações.
 
 
 **Responsabilidade Estética:** Acreditamos em uma beleza responsável, que valoriza o bem-estar do paciente e o cuidado com o planeta.
-
