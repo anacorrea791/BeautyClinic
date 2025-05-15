@@ -67,7 +67,7 @@ informações claras sobre os procedimentos, custos e avaliações.
 **Protótipo Institucional:**
 <center>
 <a>
-<img src="img/imagem01.jpg">  <img src="img/imagem1.png">
+<img src="img/imagem01.jpg"> 
 </a>
 </center>
 
@@ -76,7 +76,7 @@ informações claras sobre os procedimentos, custos e avaliações.
 **Protótipo site principal:**
 <center>
 <a>
-<img src="img/imagem02.jpg">    <img src="img/imagem2.png">
+<img src="img/imagem02.jpg"> 
 </a>
 </center>
 
