@@ -94,7 +94,7 @@ informações claras sobre os procedimentos, custos e avaliações.
 **Protótipo site principal parte 03:**
 <center>
 <a>
-<img src="img/imagem04.jpg">
+<img src="img/imagem04.png">
 </a>
 </center>
 
