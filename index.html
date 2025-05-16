@@ -21,8 +21,91 @@
     <title>BeautyClinic</title>
   </head>
   <body>
+    <!-- cabecalho -->
 
-    <!--Design para ícones sociais -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+  
+      .navbar {
+        background-color: white;
+        padding: 1rem 2rem;
+      }
+  
+      .navbar-brand img {
+        height: 40px;
+      }
+  
+      .hero-banner {
+        background-image: url('img/log3.jpg'); /* renomeie para o nome correto da imagem no seu projeto */
+        background-size: cover;
+        background-position: center;
+        height: 90vh;
+        position: relative;
+        color: white;
+      }
+  
+      .hero-overlay {
+        background-color: rgba(0, 0, 0, 0.0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+  
+      .hero-content {
+        position: relative;
+        z-index: 2;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: left;
+        padding-left: 4rem;
+      }
+  
+      .hero-title {
+        font-size: 2.5rem;
+        font-family: Georgia, serif;
+        font-style: italic;
+        font-weight: 400;
+      }
+  
+      .hero-btn {
+        margin-top: 1.5rem;
+        background-color: #d8a844;
+        border: none;
+        color: white;
+      }
+  
+      .hero-btn:hover {
+        background-color: #c8942e;
+      }
+  
+      .btn-agendar {
+        background-color: #d8a844;
+        color: white;
+        border: none;
+      }
+  
+      .btn-agendar:hover {
+        background-color: #c8942e;
+      }
+  
+      .navbar-nav .nav-link {
+        font-weight: bold;
+        margin: 0 0.5rem;
+      }
+  
+      .social-icons i {
+        font-size: 1.2rem;
+        margin-left: 1rem;
+        color: black;
+      }
+    </style>
+  
+    <!-- FontAwesome para ícones sociais -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -31,7 +114,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="img/log2.png" alt="Logo Beauty Clinic">
+          <img src="img/log2.png" alt="Logo Beauty Clinic"> <!-- Troque pelo caminho do logo -->
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
@@ -84,7 +167,7 @@
           <h2 class="text-uppercase" style="color: #464850;">Beauty Clinic</h2>
           <h5 style="color: #D0A95D;">
             Clínica de Cirurgia Plástica e<br />
-            Procedimentos Minimamente Invasivos
+            Procedimentos Minimamente Invasivo
           </h5>
           <p class="mt-3">
             O objetivo da nossa empresa é eliminar a insegurança dos indivíduos,
@@ -115,7 +198,7 @@
   
       <div class="row justify-content-center">
         
-        <!-- Imagem 1 sem botão -->
+        <!-- Imagem 1 com botão -->
         <div class="col-md-5 mb-4">
           <div class="position-relative">
             <img
