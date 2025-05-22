@@ -19,113 +19,46 @@
       referrerpolicy="no-referrer"
     />
     <title>BeautyClinic</title>
-  </head>
-  <body>
-    <!-- cabecalho -->
-
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-      }
-  
-      .navbar {
-        background-color: white;
-        padding: 1rem 2rem;
-      }
-  
-      .navbar-brand img {
-        height: 40px;
-      }
-  
-      .hero-banner {
-        background-image: url('img/log3.jpg'); /* renomeie para o nome correto da imagem no seu projeto */
-        background-size: cover;
-        background-position: center;
-        height: 90vh;
-        position: relative;
-        color: white;
-      }
-  
-      .hero-overlay {
-        background-color: rgba(0, 0, 0, 0.0);
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-      }
-  
-      .hero-content {
-        position: relative;
-        z-index: 2;
-        top: 50%;
-        transform: translateY(-50%);
-        text-align: left;
-        padding-left: 4rem;
-      }
-  
-      .hero-title {
-        font-size: 2.5rem;
-        font-family: Georgia, serif;
-        font-style: italic;
-        font-weight: 400;
-      }
-  
-      .hero-btn {
-        margin-top: 1.5rem;
-        background-color: #d8a844;
-        border: none;
-        color: white;
-      }
-  
-      .hero-btn:hover {
-        background-color: #c8942e;
-      }
-  
-      .btn-agendar {
-        background-color: #d8a844;
-        color: white;
-        border: none;
-      }
-  
-      .btn-agendar:hover {
-        background-color: #c8942e;
-      }
-  
-      .navbar-nav .nav-link {
-        font-weight: bold;
-        margin: 0 0.5rem;
-      }
-  
-      .social-icons i {
-        font-size: 1.2rem;
-        margin-left: 1rem;
-        color: black;
-      }
-    </style>
-  
     <!-- FontAwesome para ícones sociais -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-  
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="img/log2.png" alt="Logo Beauty Clinic"> <!-- Troque pelo caminho do logo -->
+          <img src="./img/log2.png" alt="Logo Beauty Clinic" />
+          <!-- Troque pelo caminho do logo -->
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
           <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">BeautyClinic</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Tratamento</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Institucional</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Cirurgias Plástica</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BeautyClinic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tratamento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Institucional</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cirurgias Plástica</a>
+            </li>
           </ul>
         </div>
         <div class="d-flex align-items-center">
@@ -137,131 +70,168 @@
         </div>
       </div>
     </nav>
-  
+
     <!-- HERO SECTION -->
     <section class="hero-banner">
       <div class="hero-overlay"></div>
       <div class="hero-content">
         <h1 class="hero-title">
-          Cirurgias Plásticas e <br> Procedimentos <br> Minimamente Invasivos
+          Cirurgias Plásticas e <br />
+          Procedimentos <br />
+          Minimamente Invasivos
         </h1>
         <button class="btn hero-btn">CLIQUE AQUI PARA SABER</button>
       </div>
     </section>
-  </style>
 
-  <section class="py-5">
-    <div class="container">
-      <div class="row align-items-center">
-        <!-- Imagem -->
-        <div class="col-lg-6 mb-4 mb-lg-0">
-          <img
-            src="img/imagem7.jpg"
-            alt="Imagem da clínica"
-            class="img-fluid rounded shadow"
-          />
-        </div>
-  
-        <!-- Texto -->
-        <div class="col-lg-6 text-center text-lg-start">
-          <h2 class="text-uppercase" style="color: #464850;">Beauty Clinic</h2>
-          <h5 style="color: #D0A95D;">
-            Clínica de Cirurgia Plástica e<br />
-            Procedimentos Minimamente Invasivo
-          </h5>
-          <p class="mt-3">
-            O objetivo da nossa empresa é eliminar a insegurança dos indivíduos,
-            promovendo uma elevação significativa da autoestima. O diferencial da
-            nossa empresa reside no fato de que não nos limitamos a um único
-            procedimento específico, mas, sim, oferecemos uma abordagem ampla, com a
-            inclusão de Procedimentos Estéticos Minimamente Invasivos. Além disso,
-            prezamos pela segurança de nossos clientes, permitindo-lhes a liberdade
-            de escolher o médico de sua preferência, assegurando assim a confiança no
-            processo e nos resultados.
-          </p>
-  
-          <a
-            href="#"
-            class="btn mt-3 text-light"
-            style="background-color: #D0A95D; font-size: 0.8rem;"
-          >
-            CONHEÇA NOSSO ESPAÇO
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section class="py-5">
-    <div class="container text-center">
-      <h2 class="text-uppercase mb-5" style="color: #D0A95D;">O que fazemos</h2>
-  
-      <div class="row justify-content-center">
-        
-        <!-- Imagem 1 com botão -->
-        <div class="col-md-5 mb-4">
-          <div class="position-relative">
+    <section class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Imagem -->
+          <div class="col-lg-6 mb-4 mb-lg-0">
             <img
-              src="img/imagem20.jpg"
-              alt="Procedimento mamoplastia"
+              src="./img/imagem7.jpg"
+              alt="Imagem da clínica"
               class="img-fluid rounded shadow"
             />
+          </div>
+
+          <!-- Texto -->
+          <div class="col-lg-6 text-center text-lg-start">
+            <h2 class="text-uppercase" style="color: #464850">Beauty Clinic</h2>
+            <h5 style="color: #d0a95d">
+              Clínica de Cirurgia Plástica e<br />
+              Procedimentos Minimamente Invasivo
+            </h5>
+            <p class="mt-3">
+              O objetivo da nossa empresa é eliminar a insegurança dos
+              indivíduos, promovendo uma elevação significativa da autoestima. O
+              diferencial da nossa empresa reside no fato de que não nos
+              limitamos a um único procedimento específico, mas, sim, oferecemos
+              uma abordagem ampla, com a inclusão de Procedimentos Estéticos
+              Minimamente Invasivos. Além disso, prezamos pela segurança de
+              nossos clientes, permitindo-lhes a liberdade de escolher o médico
+              de sua preferência, assegurando assim a confiança no processo e
+              nos resultados.
+            </p>
+
+            <a
+              href="#"
+              class="btn mt-3 text-light"
+              style="background-color: #d0a95d; font-size: 0.8rem"
+            >
+              CONHEÇA NOSSO ESPAÇO
             </a>
           </div>
         </div>
-  
-        <!-- Imagem 2 sem botão -->
-        <div class="col-md-5 mb-4">
-          <img
-            src="img/imagem8.jpg"
-            alt="Harmonização facial"
-            class="img-fluid rounded shadow"
-          />
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container text-center">
+        <h2 class="text-uppercase mb-5" style="color: #d0a95d">
+          O que fazemos
+        </h2>
+
+        <div class="row justify-content-center">
+          <!-- Imagem 1 com botão -->
+          <div class="col-md-5 mb-4">
+            <div class="position-relative">
+              <img
+                src="./img/imagem20.jpg"
+                alt="Procedimento mamoplastia"
+                class="img-fluid rounded shadow"
+              />
+            </div>
+          </div>
+
+          <!-- Imagem 2 sem botão -->
+          <div class="col-md-5 mb-4">
+            <img
+              src="./img/imagem8.jpg"
+              alt="Harmonização facial"
+              class="img-fluid rounded shadow"
+            />
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  
-  <body>
+    </section>
 
     <!-- Contato -->
     <div class="container">
       <div class="row justify-content-center py-5">
         <div class="col-lg-6 bg-light text-dark p-5 rounded">
-          <h2 class="text-uppercase mb-3" style="color: #D0A95D;">Entre em contato</h2>
+          <h2 class="text-uppercase mb-3" style="color: #d0a95d">
+            Entre em contato
+          </h2>
           <p><small>Ficaremos felizes em atendê-lo!</small></p>
-  
+
           <form class="d-grid gap-3">
-            <input class="form-control" type="text" name="nome" id="nome" placeholder="Nome" />
-            <input class="form-control" type="email" name="email" id="email" placeholder="E-mail" />
-            <textarea class="form-control" name="mensagem" id="mensagem" rows="5" placeholder="Mensagem"></textarea>
-            <button class="btn text-light rounded-pill px-4" style="background-color: #D0A95D" type="submit">Enviar</button>
+            <input
+              class="form-control"
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Nome"
+            />
+            <input
+              class="form-control"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+            />
+            <textarea
+              class="form-control"
+              name="mensagem"
+              id="mensagem"
+              rows="5"
+              placeholder="Mensagem"
+            ></textarea>
+            <button
+              class="btn text-light rounded-pill px-4"
+              style="background-color: #d0a95d"
+              type="submit"
+            >
+              Enviar
+            </button>
           </form>
         </div>
       </div>
     </div>
-  
+
     <!-- Rodapé -->
-    <footer class="text-light pt-5" style="background-color: #464850;">
+    <footer class="text-light pt-5" style="background-color: #464850">
       <div class="container">
         <div class="row">
-  
           <!-- Contato -->
           <div class="col-md-3 mb-4">
-            <h5 class="text-uppercase" style="color: #D0A95D;">Contato</h5>
-            <p class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Rua Cap. José Ribeiro, 294</p>
+            <h5 class="text-uppercase" style="color: #d0a95d">Contato</h5>
+            <p class="mb-1">
+              <i class="bi bi-geo-alt-fill me-2"></i>Rua Cap. José Ribeiro, 294
+            </p>
             <p class="mb-1">Jaú - SP, 17207-061</p>
-            <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i>(14) 9898-9898</p>
-            <p class="mb-1"><i class="bi bi-whatsapp me-2"></i>(14) 99999-9999</p>
+            <p class="mb-1">
+              <i class="bi bi-telephone-fill me-2"></i>(14) 9898-9898
+            </p>
+            <p class="mb-1">
+              <i class="bi bi-whatsapp me-2"></i>(14) 99999-9999
+            </p>
             <div class="mt-3">
-              <a href="#" class="text-light me-3"><i class="bi bi-instagram" style="font-size: 1.2rem;"></i></a>
-              <a href="#" class="text-light"><i class="bi bi-facebook" style="font-size: 1.2rem;"></i></a>
+              <a href="#" class="text-light me-3"
+                ><i class="bi bi-instagram" style="font-size: 1.2rem"></i
+              ></a>
+              <a href="#" class="text-light"
+                ><i class="bi bi-facebook" style="font-size: 1.2rem"></i
+              ></a>
             </div>
           </div>
-  
+
           <!-- Navegação -->
           <div class="col-md-3 mb-4">
-            <h5 class="text-uppercase" style="color: #D0A95D;">Navegue pelo site</h5>
+            <h5 class="text-uppercase" style="color: #d0a95d">
+              Navegue pelo site
+            </h5>
             <ul class="list-unstyled">
               <li>Home</li>
               <li>Tratamentos</li>
@@ -270,10 +240,12 @@
               <li>Política de privacidade</li>
             </ul>
           </div>
-  
+
           <!-- Procedimentos Minimamentes invasivos  -->
           <div class="col-md-3 mb-4">
-            <h5 class="text-uppercase" style="color: #D0A95D;">Procedimentos Minimamente Invasivos</h5>
+            <h5 class="text-uppercase" style="color: #d0a95d">
+              Procedimentos Minimamente Invasivos
+            </h5>
             <ul class="list-unstyled">
               <li>Toxina Botulínica (Botox)</li>
               <li>Preenchimento de Glúteo</li>
@@ -281,10 +253,12 @@
               <li>Harmonização facial</li>
             </ul>
           </div>
-  
+
           <!-- Cirurgias -->
           <div class="col-md-3 mb-4">
-            <h5 class="text-uppercase" style="color: #D0A95D;">Cirurgia Plástica Corporal</h5>
+            <h5 class="text-uppercase" style="color: #d0a95d">
+              Cirurgia Plástica Corporal
+            </h5>
             <ul class="list-unstyled">
               <li>Silicone</li>
               <li>Lipoaspiração</li>
@@ -295,8 +269,10 @@
               <li>Gastropexia</li>
               <li>Lifting Corporal</li>
             </ul>
-  
-            <h5 class="text-uppercase mt-3" style="color: #D0A95D;">Cirurgia Plástica Facial</h5>
+
+            <h5 class="text-uppercase mt-3" style="color: #d0a95d">
+              Cirurgia Plástica Facial
+            </h5>
             <ul class="list-unstyled">
               <li>Rinoplastia</li>
               <li>Otoplastia</li>
@@ -304,27 +280,38 @@
             </ul>
           </div>
         </div>
-  
+
         <!-- Botão flutuante do WhatsApp -->
-        <a href="https://wa.me/5514999999999?text=Olá%2C%20gostaria%20de%20mais%20informações!"
-           target="_blank"
-           style="position: fixed; bottom: 20px; right: 20px; background-color: #25d366; color: white; padding: 12px 14px; border-radius: 50%; font-size: 1.6rem; box-shadow: 0 2px 6px rgba(0,0,0,0.3); z-index: 1000;">
+        <a
+          href="https://wa.me/5514999999999?text=Olá%2C%20gostaria%20de%20mais%20informações!"
+          target="_blank"
+          style="
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            padding: 12px 14px;
+            border-radius: 50%;
+            font-size: 1.6rem;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+          "
+        >
           <i class="bi bi-whatsapp"></i>
         </a>
-  
+
         <!-- Direitos Autorais -->
         <div class="text-center pt-4 mt-4 border-top border-light">
           <p class="mb-0">
             Todos os direitos reservados | &copy; Beauty Clinic -
-            <script>document.write(new Date().getFullYear());</script>
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
           </p>
         </div>
       </div>
     </footer>
-  
-  </body>
-
-  
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
