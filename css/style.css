@@ -1,0 +1,15 @@
+
+* Botão personalizado */
+.btn-custom {
+    background-color: #d0a95d;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px;
+  }
+ 
+  
+  /* Exemplo de título personalizado */
+  h2 {
+    color: #d0a95d;
+    font-weight: bold;
+  }
