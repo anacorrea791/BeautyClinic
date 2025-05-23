@@ -1,303 +1,343 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PREENCHIMENTO LABIAL | BeautyClinic</title>
-
-    <!-- Bootstrap e Bootstrap Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-
-    <!-- Estilos customizados -->
-    <style>
-      .top-banner {
-        background-color: #1a1548;
-        color: #fff;
-        padding: 40px 0 10px 0;
-        text-align: center;
-      }
-
-      .breadcrumb-custom {
-        background-color: #1a1548;
-        text-align: center;
-        padding: 20px 0;
-        font-size: 0.9rem;
-      }
-
-      .breadcrumb-custom a {
-        color: #ccc;
-        text-decoration: none;
-      }
-
-      .breadcrumb-custom .active {
-        font-weight: bold;
-        color: #fff;
-      }
-    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>BeautyClinic</title>
+    <!-- FontAwesome para ícones sociais -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="./img/Logo.img.png" alt="Logo BeautyClinic" height="40" />
+          <img src="./img/log2.png" alt="Logo Beauty Clinic" />
+          <!-- Troque pelo caminho do logo -->
         </a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto gap-3 text-center">
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">BeautyClinic</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Tratamento</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Institucional</a></li>
-            <li class="nav-item"><a class="nav-link" href="./silicone.html">Cirurgias Plásticas</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BeautyClinic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tratamento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Institucional</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./silicone.html">Cirurgias Plástica</a>
+            </li>
           </ul>
         </div>
-
-        <div class="d-flex align-items-center gap-3">
-          <a href="#" class="btn text-white" style="background-color: #D0A95D;">
-            Agendar Consulta
-          </a>
-          <a href="#"><i class="bi bi-facebook fs-4 text-dark"></i></a>
-          <a href="#"><i class="bi bi-instagram fs-4 text-dark"></i></a>
+        <div class="d-flex align-items-center">
+          <a href="#" class="btn btn-agendar me-3">Agendar Consulta</a>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
         </div>
       </div>
     </nav>
 
-    <!-- TOP BANNER -->
-    <section class="top-banner">
-      <div class="container">
-        <h2>PREENCHIMENTO LABIAL:</h2>
+    <!-- HERO SECTION -->
+    <section class="hero-banner">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Cirurgias Plásticas e <br />
+          Procedimentos <br />
+          Minimamente Invasivos
+        </h1>
+        <button class="btn hero-btn">CLIQUE AQUI PARA SABER</button>
       </div>
     </section>
 
-    <!-- BREADCRUMB -->
-    <div class="breadcrumb-custom">
+    <section class="py-5">
       <div class="container">
-        <span>
-          <a href="#">Início</a> »
-          <a href="#">Cirurgia Plástica Corporal</a> »
-          <span class="active"
-            >PREENCHIMENTO LABIAL: o que é e quando fazer?</span
-          >
-        </span>
-      </div>
-    </div>
+        <div class="row align-items-center">
+          <!-- Imagem -->
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <img
+              src="./img/imagem7.jpg"
+              alt="Imagem da clínica"
+              class="img-fluid rounded shadow"
+            />
+          </div>
 
-    <!-- Imagem e Texto Lado a Lado -->
-    <div class="">
-      <img
-        src="img/imagem.labial.img.png"
-        alt="Logo BeautyClinic"
-        class="img-fluid mt-4"
-      />
-    </div>
+          <!-- Texto -->
+          <div class="col-lg-6 text-center text-lg-start">
+            <h2 class="text-uppercase" style="color: #464850">Beauty Clinic</h2>
+            <h5 style="color: #d0a95d">
+              Clínica de Cirurgia Plástica e<br />
+              Procedimentos Minimamente Invasivo7u
+            </h5>
+            <p class="mt-3">
+              O objetivo da nossa empresa é eliminar a insegurança dos
+              indivíduos, promovendo uma elevação significativa da autoestima. O
+              diferencial da nossa empresa reside no fato de que não nos
+              limitamos a um único procedimento específico, mas, sim, oferecemos
+              uma abordagem ampla, com a inclusão de Procedimentos Estéticos
+              Minimamente Invasivos. Além disso, prezamos pela segurança de
+              nossos clientes, permitindo-lhes a liberdade de escolher o médico
+              de sua preferência, assegurando assim a confiança no processo e
+              nos resultados.
+            </p>
 
-    <div class="mb-4">
-      <button class="gradient-btn">
-        QUERO AGENDAR UMA CONSULTA PARA REALIZAR UMA AVALIAÇÃO!
-      </button>
-    </div>
-
-
-    
-        
-    
-    
-        <!-- Coluna do texto: ocupa todo espaço restante -->
-        <div class="col">
-          <p>
-            O preenchimento labial é um procedimento estético minimamente invasivo
-            realizado com o objetivo de aumentar o volume dos lábios, definir seu
-            contorno e melhorar a simetria. A substância mais comum utilizada para
-            esse procedimento é o ácido hialurônico, que é biocompatível e
-            reabsorvível pelo organismo.
-          </p>
-          <h5>Avaliação inicial:</h5>
-          <p>
-            O profissional (geralmente um dermatologista ou cirurgião dentista
-            habilitado) avalia a anatomia dos lábios, discute os objetivos do
-            paciente e define a quantidade e o tipo de preenchedor a ser utilizado.
-          </p>
-
-          <h5>Assepsia e anestesia:</h5>
-          <p>
-            A região é higienizada.<br />
-            Aplica-se anestesia local tópica (em creme) ou infiltrativa, para
-            reduzir o desconforto.
-          </p>
-
-          <h5>Aplicação do preenchedor:</h5>
-          <p>
-            Utiliza-se uma agulha fina ou uma cânula para injetar o ácido
-            hialurônico em pontos estratégicos.<br />
-            A técnica pode variar conforme o objetivo: volumização, definição do
-            contorno, correção de assimetrias, etc.
-          </p>
-
-          <h5>Modelagem e massagem:</h5>
-          <p>
-            O profissional pode massagear suavemente os lábios para distribuir o
-            produto de forma uniforme.
-          </p>
-
-          <h5>Pós-procedimento:</h5>
-          <p>
-            Pode haver inchaço, vermelhidão e pequenos hematomas nos primeiros dias.
-            <br />
-            Recomenda-se evitar calor local, maquiagem nas primeiras horas, e
-            exercícios físicos intensos nas 24 a 48 horas seguintes.
-          </p>
-
-          <h5>Duração do resultado:</h5>
-          <p>
-            O efeito geralmente dura de 6 a 12 meses, dependendo do metabolismo do
-            paciente e do tipo de ácido hialurônico utilizado.
-          </p>
-          <h5>✅ Riscos e efeitos colaterais comuns:</h5>
-<ul>
-  <li>Inchaço e vermelhidão: comuns nas primeiras 24-72 horas.</li>
-  <li>Hematomas: devido à perfuração de pequenos vasos sanguíneos durante a aplicação.</li>
-  <li>Assimetria temporária: pode ocorrer durante o inchaço ou por má distribuição do produto.</li>
-  <li>Nódulos ou irregularidades: se o produto não for bem distribuído.</li>
-  <li>Reações alérgicas: raras, já que o ácido hialurônico é uma substância naturalmente presente no corpo.</li>
-  <li>Infecção: risco baixo, mas possível, se não forem seguidos protocolos adequados de higiene.</li>
-  <li>Oclusão vascular (grave): ocorre se o ácido hialurônico for injetado acidentalmente em um vaso sanguíneo, podendo causar necrose (morte do tecido), especialmente se não tratado rapidamente.</li>
-</ul>
-
-<h5>🚫 Contraindicações:</h5>
-<ul>
-  <li>Gestantes e lactantes: por falta de estudos de segurança.</li>
-  <li>Infecções ativas na região dos lábios (ex: herpes labial): o procedimento pode agravar a condição.</li>
-  <li>Doenças autoimunes ou inflamatórias não controladas.</li>
-  <li>Alergia conhecida ao ácido hialurônico ou lidocaína (se presente no produto).</li>
-  <li>Doenças de coagulação ou uso de anticoagulantes (com avaliação médica).</li>
-</ul>
-
+            <a
+              href="#"
+              class="btn mt-3 text-light"
+              style="background-color: #d0a95d; font-size: 0.8rem"
+            >
+              CONHEÇA NOSSO ESPAÇO
+            </a>
+          </div>
         </div>
       </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container text-center">
+        <h2 class="text-uppercase mb-5" style="color: #d0a95d">
+          O que fazemos
+        </h2>
+
+        <div class="row justify-content-center">
+          <!-- Imagem 1 com botão -->
+          <div class="col-md-5 mb-4">
+            <div class="position-relative">
+              <img
+                src="./img/imagem20.jpg"
+                alt="Procedimento mamoplastia"
+                class="img-fluid rounded shadow"
+              />
+            </div>
+          </div>
+
+          <!-- Imagem 2 sem botão -->
+          <div class="col-md-5 mb-4">
+            <img
+              src="./img/imagem8.jpg"
+              alt="Harmonização facial"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="position-relative d-flex justify-content-center align-items-center w-100"
+    >
+      <!--Formulario de Contato -->
+      <div class="container position-absolute top-0">
+        <div class="row justify-content-center">
+          <div class="col-lg-5 bg-light text-dark p-5 rounded shadow">
+            <h2 class="text-uppercase mb-3" style="color: #d0a95d">
+              Entre em contato
+            </h2>
+            <p><small>Ficaremos felizes em atendê-lo!</small></p>
+
+            <form class="d-grid gap-3">
+              <input
+                class="form-control"
+                type="text"
+                name="nome"
+                id="nome"
+                placeholder="Nome"
+              />
+              <input
+                class="form-control"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+              />
+              <textarea
+                class="form-control"
+                name="mensagem"
+                id="mensagem"
+                rows="4"
+                placeholder="Mensagem"
+              ></textarea>
+              <button
+                class="btn text-light rounded-pill px-4"
+                style="background-color: #d0a95d"
+                type="submit"
+              >
+                Enviar
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rodapé -->
+      <footer
+        class="text-light pt-5 w-100 mt-5"
+        style="background-color: #464850"
+      >
+        <div class="w-100 p-3">
+          <div class="row w-100">
+            <!-- Ajuste visual smartphone -->
+            <div class="d-block d-md-none" style="height: 370px"></div>
+            <!-- Contato -->
+            <div class="col-md-2 mb-4">
+              <h5 class="text-uppercase" style="color: #d0a95d">Contato</h5>
+              <p class="mb-1">
+                <i class="bi bi-geo-alt-fill me-2"></i>Rua Cap. José Ribeiro,
+                294
+              </p>
+              <p class="mb-1">Jaú - SP, 17207-061</p>
+              <p class="mb-1">
+                <i class="bi bi-telephone-fill me-2"></i>(14) 9898-9898
+              </p>
+              <p class="mb-1">
+                <i class="bi bi-whatsapp me-2"></i>(14) 99999-9999
+              </p>
+              <div class="mt-3">
+                <a href="#" class="text-light me-3"
+                  ><i class="bi bi-instagram" style="font-size: 1.2rem"></i
+                ></a>
+                <a href="#" class="text-light"
+                  ><i class="bi bi-facebook" style="font-size: 1.2rem"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- Navegação -->
+            <div class="col-md-2 mb-4">
+              <h5 class="text-uppercase" style="color: #d0a95d">
+                Navegue pelo site
+              </h5>
+              <ul class="list-unstyled">
+                <li>Home</li>
+                <li>Tratamentos</li>
+                <li>Cirurgias Plásticas</li>
+                <li>Agendar primeira consulta</li>
+                <li>Política de privacidade</li>
+              </ul>
+            </div>
+
+            <!-- Ajuste visual para pular uma coluna -->
+            <div class="col-md-5"></div>
+            <!-- Cirurgias -->
+            <div class="col-md-3 mb-4">
+              <h5 class="text-uppercase" style="color: #d0a95d">
+                Cirurgia Plástica Corporal
+              </h5>
+              <ul class="list-unstyled">
+                <li>Silicone</li>
+                <li>Lipoaspiração</li>
+                <li>Lipo HD</li>
+                <li>Mamoplastia Redutora</li>
+                <li>Gluteoplastia</li>
+                <li>Ninfoplastia</li>
+                <li>Gastropexia</li>
+                <li>Lifting Corporal</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row w-100">
+            <!-- Ajuste visual para pular uma coluna -->
+            <div class="col-md-2"></div>
+            <!-- Procedimentos Minimamentes invasivos  -->
+            <div class="col-md-2">
+              <h5 class="text-uppercase" style="color: #d0a95d">
+                Procedimentos Minimamente Invasivos
+              </h5>
+              <ul class="list-unstyled">
+                <li>Toxina Botulínica (Botox)</li>
+                <li>Preenchimento de Glúteo</li>
+                <li>Preenchimento labial</li>
+                <li>Harmonização facial</li>
+              </ul>
+            </div>
+
+            <!-- Ajuste visual para pular uma coluna -->
+            <div class="col-md-5"></div>
+            <!-- Cirurgias -->
+            <div class="col-md-3 mb-4">
+              <h5 class="text-uppercase mt-3" style="color: #d0a95d">
+                Cirurgia Plástica Facial
+              </h5>
+              <ul class="list-unstyled">
+                <li>Rinoplastia</li>
+                <li>Otoplastia</li>
+                <li>Redução de Papada</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Botão flutuante do WhatsApp -->
+          <a
+            href="https://wa.me/5514999999999?text=Olá%2C%20gostaria%20de%20mais%20informações!"
+            target="_blank"
+            style="
+              position: fixed;
+              bottom: 20px;
+              right: 20px;
+              background-color: #25d366;
+              color: white;
+              padding: 12px 16px;
+              border-radius: 50%;
+              font-size: 1.6rem;
+              box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+              z-index: 1000;
+            "
+          >
+            <i class="bi bi-whatsapp"></i>
+          </a>
+
+          <!-- Direitos Autorais -->
+          <div class="text-center pt-4 mt-4 border-top border-light">
+            <p class="mb-0">
+              Todos os direitos reservados | &copy; Beauty Clinic -
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
-    <div class="mb-4">
-      <button class="gradient-btn">
-        QUERO AGENDAR UMA CONSULTA PARA REALIZAR UMA AVALIAÇÃO!
-      </button>
-    </div>
-
-        <!-- Rodapé -->
-<footer class="text-light w-100 mt-5" style="background-color: #464850; padding-top: 50px; padding-bottom: 50px;">
-  <div class="container">
-    <div class="row text-start">
-
-      <!-- Coluna 1: Contato -->
-      <div class="col-md-2 col-12 mb-4">
-        <h5 class="text-uppercase" style="color: #d0a95d">Contato</h5>
-        <p><i class="bi bi-geo-alt-fill me-2"></i>Rua Cap. José Ribeiro, 294</p>
-        <p>Jaú - SP, 17207-061</p>
-        <p><i class="bi bi-telephone-fill me-2"></i>(14) 9898-9898</p>
-        <p><i class="bi bi-whatsapp me-2"></i>(14) 99999-9999</p>
-      </div>
-
-      <!-- Coluna 2: Navegação -->
-      <div class="col-md-2 col-12 mb-4">
-        <h5 class="text-uppercase" style="color: #d0a95d">Navegue pelo site</h5>
-        <ul class="list-unstyled">
-          <li>Home</li>
-          <li>Tratamentos</li>
-          <li>Cirurgias Plásticas</li>
-          <li>Agendar consulta</li>
-          <li>Política de privacidade</li>
-        </ul>
-      </div>
-
-      <!-- Coluna 3: Cirurgia Corporal -->
-      <div class="col-md-2 mb-4">
-        <h5 class="text-uppercase" style="color: #d0a95d">Cirurgia Plástica Corporal</h5>
-        <ul class="list-unstyled">
-          <li>Silicone</li>
-          <li>Lipoaspiração</li>
-          <li>Lipo HD</li>
-          <li>Mamoplastia Redutora</li>
-          <li>Gluteoplastia</li>
-          <li>Ninfoplastia</li>
-          <li>Gastropexia</li>
-          <li>Lifting Corporal</li>
-        </ul>
-      </div>
-
-      <!-- Coluna 4: Procedimentos Minimamente Invasivos -->
-      <div class="col-md-3 mb-4">
-        <h5 class="text-uppercase" style="color: #d0a95d">Procedimentos Minimamente Invasivos</h5>
-        <ul class="list-unstyled">
-          <li>Toxina Botulínica (Botox)</li>
-          <li>Preenchimento de Glúteo</li>
-          <li>Preenchimento labial</li>
-          <li>Harmonização facial</li>
-        </ul>
-      </div>
-
-      <!-- Coluna 5: Cirurgia Facial -->
-      <div class="col-md-3 mb-4">
-        <h5 class="text-uppercase" style="color: #d0a95d">Cirurgia Plástica Facial</h5>
-        <ul class="list-unstyled">
-          <li>Rinoplastia</li>
-          <li>Otoplastia</li>
-          <li>Redução de Papada</li>
-        </ul>
-      </div>
-
-    </div>
-<!-- Botão flutuante do WhatsApp -->
-<a
-href="https://wa.me/5514999999999?text=Olá%2C%20gostaria%20de%20mais%20informações!"
-target="_blank"
-style="
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25d366;
-  color: white;
-  padding: 12px 16px;
-  border-radius: 50%;
-  font-size: 1.6rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
-"
->
-<i class="bi bi-whatsapp"></i>
-</a>
-
-
-    <!-- Direitos Autorais -->
-    <div class="text-center pt-4 mt-4 border-top border-light">
-      <p class="mb-0">
-        Todos os direitos reservados | &copy; Beauty Clinic -
-        <script>document.write(new Date().getFullYear());</script>
-      </p>
-    </div>
-  </div>
-</footer>
-
-    <!-- Bootstrap JS -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
-      defer
+      integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     ></script>
   </body>
 </html>
