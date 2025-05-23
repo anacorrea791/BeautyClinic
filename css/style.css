@@ -101,17 +101,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-/* style.css */
-
 /* Botão personalizado */
 .btn-custom {
   background-color: #d0a95d;
@@ -146,57 +135,176 @@ body {
   height: 40px;
 }
 
-
-.gradient-btn {
-  background: linear-gradient(to right, #ffe600, #d3b438);
-  border: none;
-  padding: 12px 24px;
-  border-radius: 25px;
-  color: #000;
-  font-weight: bold;
-  cursor: pointer;
+.hero-banner {
+  background-image: url("../img/img4.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  position: relative;
+  color: rgb(255, 255, 255);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.index-box {
-  background-color: #f8f9fa;
-  border: 1px solid #ddd;
-  padding: 15px;
-  border-radius: 10px;
-  max-width: 300px;
-  margin: 20px auto;
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
-.index-box ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.index-box ul li {
-  margin-bottom: 8px;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 40px;
-}
-
-h1 {
-  color: #d8a735; 
-  font-size: 70px;
-  font-weight: normal;
-}
-
-.conteudo {
-  max-width: 500px;
+.hero-content {
+  position: relative;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
   text-align: left;
-  line-height: 2;
-  font-size: 50px;
-  color: #000000;
+  padding-left: 4rem;
+}
 
+.hero-title {
+  font-size: 2.5rem;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.hero-btn {
+  margin-top: 1.5rem;
+  background-color: #d8a844 !important;
+  border: none !important;
+  color: white !important;
+}
+
+.hero-btn:hover {
+  background-color: #c8942e;
+}
+
+.btn-agendar {
+  background-color: #d8a844 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.btn-agendar:hover {
+  background-color: #c8942e !important;
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+
+.social-icons i {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  color: rgb(255, 255, 255);
+}
+
+.image-card {
+  position: relative;
+  height: 390px;
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(109, 107, 107, 0.5); /* escurece a imagem */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+
+.overlay h5 {
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.btn-white {
+  background-color: rgb(0, 0, 0);
+  color: black;
+  border: none;
+}
+
+.btn-white:hover {
+  background-color: #ffffff;
 }
 
 
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+  }
 
+  .card-medico {
+    text-align: center;
+    padding: 1rem;
+  }
 
+  .card-medico img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    background-color: #1a1447;
+    padding: 0.3rem;
+  }
 
+  .nome-medico {
+    font-weight: 600;
+    color: #1a1447;
+  }
 
+  .especialidade,
+  .crm {
+    font-size: 0.9rem;
+    color: #333;
+  }
+
+  .btn-exp {
+    background-color: #d2ad6c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 0.4rem 1.2rem;
+  }
+
+  .btn-exp:hover {
+    background-color: #b88d50;
+  }
+
+  .subtitulo {
+    text-align: center;
+    color: #d2ad6c;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    font-weight: 500;
+  }
+
+  .titulo-secao {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1a1447;
+  }
+
+  .instalacoes img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 250px;
+  }
