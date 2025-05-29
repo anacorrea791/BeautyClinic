@@ -1,44 +1,4 @@
-
-.top-banner {
-  background-color: #1a1548;
-  color: #fff;
-  padding: 40px 0 10px 0;
-  text-align: center;
-}
-
-.breadcrumb-custom {
-  background-color: #1a1548;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 0.9rem;
-}
-
-.breadcrumb-custom a {
-  color: #ccc;
-  text-decoration: none;
-}
-
-.breadcrumb-custom .active {
-  font-weight: bold;
-  color: #fff;
-}
-* Botão personalizado */
-.btn-custom {
-    background-color: #d0a95d;
-    color: white;
-    border-radius: 50px;
-    padding: 10px 30px;
-  }
- 
-  
-  /* Exemplo de título personalizado */
-  h2 {
-    color: #d0a95d;
-    font-weight: bold;
-  }
-
-
-  /* style.css */
+/* style.css */
 
 /* Botão personalizado */
 .btn-custom {
@@ -140,7 +100,6 @@ body {
   color: black;
 }
 
-
 /* Botão personalizado */
 .btn-custom {
   background-color: #d0a95d;
@@ -182,7 +141,8 @@ body {
   height: 50vh;
   position: relative;
   color: rgb(255, 255, 255);
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .hero-overlay {
@@ -281,86 +241,151 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   background-color: #ffffff;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
 
-  body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #fff;
-  }
+.card-medico {
+  text-align: center;
+  padding: 1rem;
+}
 
-  .card-medico {
-    text-align: center;
-    padding: 1rem;
-  }
+.card-medico img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  background-color: #1a1447;
+  padding: 0.3rem;
+}
 
-  .card-medico img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-    background-color: #1a1447;
-    padding: 0.3rem;
-  }
+.nome-medico {
+  font-weight: 600;
+  color: #1a1447;
+}
 
-  .nome-medico {
-    font-weight: 600;
-    color: #1a1447;
-  }
+.especialidade,
+.crm {
+  font-size: 0.9rem;
+  color: #333;
+}
 
-  .especialidade,
-  .crm {
-    font-size: 0.9rem;
-    color: #333;
-  }
+.btn-exp {
+  background-color: #d2ad6c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 0.4rem 1.2rem;
+}
 
-  .btn-exp {
-    background-color: #d2ad6c;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-weight: 500;
-    padding: 0.4rem 1.2rem;
-  }
+.btn-exp:hover {
+  background-color: #b88d50;
+}
 
-  .btn-exp:hover {
-    background-color: #b88d50;
-  }
+.subtitulo {
+  text-align: center;
+  color: #d2ad6c;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  font-weight: 500;
+}
 
-  .subtitulo {
-    text-align: center;
-    color: #d2ad6c;
-    font-size: 0.8rem;
-    margin-top: 2rem;
-    font-weight: 500;
-  }
+.titulo-secao {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1a1447;
+}
 
-  .titulo-secao {
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    color: #1a1447;
-  }
+.instalacoes img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  height: 250px;
+}
+/* style.css */
 
-  .instalacoes img {
-    width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
-    height: 250px;
-  }
-  .breadcrumb-custom {
-    background-color: #1a1548; /* mesma cor do banner */
-    text-align: center;
-    padding-bottom: 30px;
-    font-size: 0.9rem;
-  }
+/* Botão personalizado */
+.btn-custom {
+  background-color: #d0a95d;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 30px;
+}
 
-  .gradient-btn {
-    background: linear-gradient(to right, #ffe600, #d3b438);
-    border: none;
-    padding: 12px 24px;
-    border-radius: 25px;
-    color: #000;
-    font-weight: bold;
-    cursor: pointer;
-  }
+/* Exemplo de título personalizado */
+h2 {
+  color: #d0a95d;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #464850;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: white;
+  padding: 1rem 2rem;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.gradient-btn {
+  background: linear-gradient(to right, #ffe600, #d3b438);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.index-box {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.index-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.index-box ul li {
+  margin-bottom: 8px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+h1 {
+  color: #d8a735;
+  font-size: 70px;
+  font-weight: normal;
+}
+
+.conteudo {
+  max-width: 500px;
+  text-align: left;
+  line-height: 2;
+  font-size: 50px;
+  color: #000000;
+}
