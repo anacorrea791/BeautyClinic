@@ -1,3 +1,4 @@
+
 .top-banner {
   background-color: #1a1548;
   color: #fff;
@@ -346,4 +347,10 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     border-radius: 10px;
     object-fit: cover;
     height: 250px;
+  }
+  .breadcrumb-custom {
+    background-color: #1a1548; /* mesma cor do banner */
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 0.9rem;
   }
