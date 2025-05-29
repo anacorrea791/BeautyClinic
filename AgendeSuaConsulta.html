@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agende sua consulta</title>
+</head>
+<body>
+    <!-- Bootstrap e Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Estilos customizados -->
+    <style>
+      .top-banner {
+        background-color: #1a1548;
+        color: #fff;
+        padding: 40px 0 10px 0;
+        text-align: center;
+      }
+
+      .breadcrumb-custom {
+        background-color: #1a1548;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 0.9rem;
+      }
+
+      .breadcrumb-custom a {
+        color: #ccc;
+        text-decoration: none;
+      }
+
+      .breadcrumb-custom .active {
+        font-weight: bold;
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+      <div class="container-fluid">
+        <a class="navbar-and" href="#">
+          <img src="./img/Logo.img.png" alt="Logo BeautyClinic" height="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto gap-3 text-center">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">BeautyClinic</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Tratamento</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Institucional</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Cirurgias Plásticas</a></li>
+          </ul>
+        </div>
+
+        <div class="d-flex align-items-center gap-3">
+         
+          <a href="#"><i class="bi bi-facebook fs-4 text-dark"></i></a>
+          <a href="#"><i class="bi bi-instagram fs-4 text-dark"></i></a>
+        </div>
+      </div>
+    </nav>
+   
+   
+   
+    <!-- Banner Beauty Clinic -->
+<!-- Banner Beauty Clinic -->
+<section
+  class="text-center d-flex align-items-center justify-content-center text-light"
+  style="
+    height: 500px;
+    background-image: url('img/bcy.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  "
+>
+  <!-- Sobreposição dourada suave -->
+  <div
+    class="position-absolute top-0 start-0 w-100 h-100"
+    style="background-color: rgba(0, 0, 0, 0.3); z-index: 1"
+  ></div>
+
+  <div class="container position-relative" style="z-index: 2">
+    <h1 class="display-4 fw-bold text-shadow" style="text-shadow: 1px 1px 6px #000">
+    AGENDAR CONSULTA
+    </h1>
+    <p class="lead mb-4" style="text-shadow: 1px 1px 4px #000">
+      Agende sua consulta e realce sua beleza com segurança e excelência.
+    </p>
+    
+  </div>
+</section>
+<section style="background-color: #001f3f; color: #fff; padding: 40px 20px;">
+    <div class="container">
+  
+      <!-- Atendimento Particular -->
+      <div class="text-center mb-4">
+        <h5 style="color: #d0a95d;">Atendimento Particular</h5>
+        <p>Segunda à Sexta: 08h às 18h | Sábado: 08h às 13h</p>
+        <p><i class="bi bi-geo-alt-fill me-2"></i>Rua Cap. José Ribeiro, 294, Jaú - SP</p>
+        <p><i class="bi bi-telephone-fill me-2"></i>(14) 9898-9898</p>
+      </div>
+  
+      <!-- Título Agende sua Consulta -->
+      <h2 class="text-center mb-4" style="color: #d0a95d;">Agende Sua Consulta</h2>
+  
+      <!-- Formulário -->
+      <form class="row g-3 mb-4">
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Nome completo" required>
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control" placeholder="Email" required>
+        </div>
+        <div class="col-md-6">
+          <input type="tel" class="form-control" placeholder="Telefone" required>
+        </div>
+        <div class="col-md-6">
+          <input type="date" class="form-control" required>
+        </div>
+        <div class="col-12">
+          <textarea class="form-control" rows="3" placeholder="Mensagem (opcional)"></textarea>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-warning px-5">Enviar</button>
+        </div>
+      </form>
+  
+    </div> <!-- fecha container -->
+</section>
+
+<!-- Mapa Google (borda a borda) -->
+<div style="width: 100%; height: 400px;">
+  <iframe 
+    src="https://www.google.com/maps?q=Rua+Cap.+Jos%C3%A9+Ribeiro,+294,+Ja%C3%BA,+SP&output=embed" 
+    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+  </section>
+  
+  <!-- Rodapé -->
+  <footer class="text-light w-100 " style="background-color: #464850; padding-top: 100px; padding-bottom: 100px;">
+
+    <div class="container">
+      <div class="row text-start">
+  
+        <!-- Coluna 1: Contato -->
+        <div class="col-md-2 col-12 mb-4">
+          <h5 class="text-uppercase" style="color: #d0a95d">Contato</h5>
+          <p><i class="bi bi-geo-alt-fill me-2"></i>Rua Cap. José Ribeiro, 294</p>
+          <p>Jaú - SP, 17207-061</p>
+          <p><i class="bi bi-telephone-fill me-2"></i>(14) 9898-9898</p>
+          <p><i class="bi bi-whatsapp me-2"></i>(14) 99999-9999</p>
+        </div>
+  
+        <!-- Coluna 2: Navegação -->
+        <div class="col-md-2 col-12 mb-4">
+          <h5 class="text-uppercase" style="color: #d0a95d">Navegue pelo site</h5>
+          <ul class="list-unstyled">
+            <li>Home</li>
+            <li>Tratamentos</li>
+            <li>Cirurgias Plásticas</li>
+            <li>Agendar consulta</li>
+            <li>Política de privacidade</li>
+          </ul>
+        </div>
+  
+        <!-- Coluna 3: Cirurgia Corporal -->
+        <div class="col-md-2 mb-4">
+          <h5 class="text-uppercase" style="color: #d0a95d">Cirurgia Plástica Corporal</h5>
+          <ul class="list-unstyled">
+            <li>Silicone</li>
+            <li>Lipoaspiração</li>
+            <li>Lipo HD</li>
+            <li>Mamoplastia Redutora</li>
+            <li>Gluteoplastia</li>
+            <li>Ninfoplastia</li>
+            <li>Gastropexia</li>
+            <li>Lifting Corporal</li>
+          </ul>
+        </div>
+  
+        <!-- Coluna 4: Procedimentos Minimamente Invasivos -->
+        <div class="col-md-3 mb-4">
+          <h5 class="text-uppercase" style="color: #d0a95d">Procedimentos Minimamente Invasivos</h5>
+          <ul class="list-unstyled">
+            <li>Toxina Botulínica (Botox)</li>
+            <li>Preenchimento de Glúteo</li>
+            <li>Preenchimento labial</li>
+            <li>Harmonização facial</li>
+          </ul>
+        </div>
+  
+        <!-- Coluna 5: Cirurgia Facial -->
+        <div class="col-md-3 mb-4">
+          <h5 class="text-uppercase" style="color: #d0a95d">Cirurgia Plástica Facial</h5>
+          <ul class="list-unstyled">
+            <li>Rinoplastia</li>
+            <li>Otoplastia</li>
+            <li>Redução de Papada</li>
+          </ul>
+        </div>
+  
+      </div>
+  <!-- Botão flutuante do WhatsApp -->
+  <a
+  href="https://wa.me/5514999999999?text=Olá%2C%20gostaria%20de%20mais%20informações!"
+  target="_blank"
+  style="
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  "
+  >
+  <i class="bi bi-whatsapp"></i>
+  </a>
+  
+  
+      <!-- Direitos Autorais -->
+      <div class="text-center pt-4 mt-4 border-top border-light">
+        <p class="mb-0">
+          Todos os direitos reservados | &copy; Beauty Clinic -
+          <script>document.write(new Date().getFullYear());</script>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  
+  
+  
+
+</body>
+</html>
