@@ -354,3 +354,13 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     padding-bottom: 30px;
     font-size: 0.9rem;
   }
+
+  .gradient-btn {
+    background: linear-gradient(to right, #ffe600, #d3b438);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
