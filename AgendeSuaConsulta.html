@@ -46,39 +46,107 @@
 
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
       <div class="container-fluid">
-        <a class="navbar-and" href="#">
-          <img src="./img/Logo.img.png" alt="Logo BeautyClinic" height="40" />
+        <a class="navbar-brand" href="#">
+          <img src="./img/img01.png" alt="Logo Beauty Clinic" />
+          <!-- Troque pelo caminho do logo -->
         </a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto gap-3 text-center">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">BeautyClinic</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Tratamento</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Institucional</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Cirurgias Plásticas</a></li>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="conhecendaclínica.html">BeautyClinic</a>
+            </li>
+            
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                      <button
+                        class="nav-link dropdown-toggle"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Tratamentos
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="Harmonização.html">Harmonização Facial</a>
+                        </li>
+                        
+                        <li>
+                          <a class="dropdown-item" href="labial.htm">Toxina Botulínica</a>
+                        </li>
+                        </ul>
+                      </div>
+            <li class="nav-item">
+              <a class="nav-link" href="https://KaiqueSpilari.github.io/Site-Beauty-Clinic/">Institucional</a>
+            </li>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <button
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Cirurgias Plástica
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="RESULTADOS.html">Antes e Depois</a>
+                  </li>
+                    <li>
+                      <a class="dropdown-item" href="./silicone.html">Silicone</a>
+                    </li>
+                    
+                    <li>
+                      <a class="dropdown-item" href="gluteo.html">Gluteo Plastia</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="Mamoplastia Redutora.html">Mamoplastia</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="otoplastia.html">Otoplastia</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="Rinoplastia.html">Rinoplastia</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="LipoHD.html">Lipo HD</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="otoplastia.html">Otoplastia</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="florzinha.html">Ninfoplastia</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </ul>
         </div>
-
-        <div class="d-flex align-items-center gap-3">
-         
-          <a href="#"><i class="bi bi-facebook fs-4 text-dark"></i></a>
-          <a href="#"><i class="bi bi-instagram fs-4 text-dark"></i></a>
+        
         </div>
       </div>
     </nav>
+
+   
+   
    
    
    
@@ -88,7 +156,7 @@
   class="text-center d-flex align-items-center justify-content-center text-light"
   style="
     height: 500px;
-    background-image: url('img/bcy.jpg');
+    background-image: url('./img/clnc.png');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -191,12 +259,12 @@
           <h5 class="text-uppercase" style="color: #d0a95d">Cirurgia Plástica Corporal</h5>
           <ul class="list-unstyled">
             <li>Silicone</li>
-            <li>Lipoaspiração</li>
+            
             <li>Lipo HD</li>
             <li>Mamoplastia Redutora</li>
             <li>Gluteoplastia</li>
             <li>Ninfoplastia</li>
-            <li>Gastropexia</li>
+          
             <li>Lifting Corporal</li>
           </ul>
         </div>
@@ -207,7 +275,7 @@
           <ul class="list-unstyled">
             <li>Toxina Botulínica (Botox)</li>
             <li>Preenchimento de Glúteo</li>
-            <li>Preenchimento labial</li>
+            
             <li>Harmonização facial</li>
           </ul>
         </div>
@@ -254,7 +322,12 @@
     </div>
   </footer>
   
-  
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+  integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
   
   
 
